@@ -7,7 +7,7 @@ void heapsort(int arr[],int n){
     arr[i]=temp;
     heapify(arr,0,i-1);
     }   
- }
+ } 
 };
 
 void  heapify(int arr[],int n,int i){
@@ -25,4 +25,5 @@ void  heapify(int arr[],int n,int i){
         arr[i] = arr[largest];
         
     }
+
 }
